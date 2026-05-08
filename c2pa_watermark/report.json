@@ -1,0 +1,50 @@
+[
+  {
+    "case": "crop",
+    "before": {
+      "path": "./demo.png",
+      "has_c2pa": true,
+      "active_manifest_label": "urn:c2pa:<redacted>",
+      "error": null
+    },
+    "after": {
+      "path": "./demo_cropped.png",
+      "has_c2pa": false,
+      "active_manifest_label": null,
+      "error": "ManifestNotFound: no JUMBF data found"
+    },
+    "provenance_status": "c2pa_lost_after_processing"
+  },
+  {
+    "case": "resize",
+    "before": {
+      "path": "./demo.png",
+      "has_c2pa": true,
+      "active_manifest_label": "urn:c2pa:<redacted>",
+      "error": null
+    },
+    "after": {
+      "path": "./demo_resized.png",
+      "has_c2pa": false,
+      "active_manifest_label": null,
+      "error": "ManifestNotFound: no JUMBF data found"
+    },
+    "provenance_status": "c2pa_lost_after_processing"
+  },
+  {
+    "case": "convert",
+    "before": {
+      "path": "./demo.png",
+      "has_c2pa": true,
+      "active_manifest_label": "urn:c2pa:<redacted>",
+      "error": null
+    },
+    "after": {
+      "path": "./demo_converted.jpeg",
+      "has_c2pa": false,
+      "active_manifest_label": null,
+      "error": "ManifestNotFound: no JUMBF data found"
+    },
+    "provenance_status": "c2pa_lost_after_processing"
+  }
+]
